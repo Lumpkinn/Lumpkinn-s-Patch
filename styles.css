@@ -1,0 +1,25 @@
+@font-face {
+     font-family: national-park-typeface;
+     src: url(NationalPark-Medium.woff);
+}
+
+#BText
+{
+     text-align: center;
+}
+
+body
+{
+     font-family: national-park-typeface;
+     background-image: linear-gradient(to bottom, orange, green); 
+}
+p
+{color: #800000;}
+h2
+{color: darkgreen;}
+h3
+{color: lightgreen;}
+li
+{color:aliceblue}
+a
+{color:greenyellow}
