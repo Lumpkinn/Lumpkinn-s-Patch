@@ -3,6 +3,13 @@
      src: url(NationalPark-Medium.woff);
 }
 
+html
+{
+     height: 100%;
+
+}
+
+
 * {box-sizing: border-box;}
 .card
 {
@@ -22,13 +29,33 @@
 
 #BText
 {
+     font-family: national-park-typeface;
      text-align: center;
 }
 
+.title-format
+{
+     width:350;
+     padding:24px;
+     border:8px solid darkgreen;
+     background-color: lightgreen;
+
+}
+
+.size-format
+{
+     max-width:980px;
+     margin:auto;
+     padding:20px;
+     border:chartreuse;
+     margin-bottom: 24px;
+
+}
 body
 {
+     height:100%;
      font-family: national-park-typeface;
-     background-image: linear-gradient(to bottom, orange, green); 
+     background-image: linear-gradient(to bottom, orange, green) ;
 }
 
 h1
@@ -38,11 +65,20 @@ h1
 }
 
 p
-{color: #800000;}
+{
+     font-family: national-park-typeface;
+     color: #800000;
+}
 h2
-{color: darkgreen;}
+{
+     font-family: national-park-typeface;
+     color: darkgreen;
+}
 h3
-{color: lightgreen;}
+{
+     font-family: national-park-typeface;
+     color: lightgreen;
+}
 li
 {color:rgb(56, 160, 15)}
 a
