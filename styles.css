@@ -1,5 +1,5 @@
 @font-face {
-     font-family: national-park-typeface;
+     font-family: "national-park-typeface";
      src: url(NationalPark-Medium.woff);
 }
 
@@ -18,6 +18,8 @@ html
      border: 2px solid darkolivegreen;
      margin-bottom: 24px;
      background-color: olive;
+     float: left;
+     margin: 10px;
 }
 .callout
 {
@@ -25,6 +27,7 @@ html
      padding: 16px;
      border-left: 6px solid olive;
      background-color: rgb(255, 202, 122);
+     float:inline-start
 }
 
 #BText
@@ -54,8 +57,10 @@ html
 body
 {
      height:100%;
-     font-family: national-park-typeface;
-     background-image: linear-gradient(to bottom, orange, green) ;
+     font-family: "national-park-typeface", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     background-image: linear-gradient(to bottom, orange, green);
+     background-repeat: no-repeat scroll;
+     background-size: cover;
 }
 
 h1
